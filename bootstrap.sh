@@ -1,6 +1,4 @@
 #!/bin/bash
-kubectl apply -f cluster.yml
-
 cd .infrastructure
 
 kubectl apply -f namespace.yml
